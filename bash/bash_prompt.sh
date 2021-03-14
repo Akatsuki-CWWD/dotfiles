@@ -1,3 +1,6 @@
+# Autor: spawnmc
+# Github: https://github.com/spawmc
+
 function nonzero_return() {
 	RETVAL=$?
 	[ $RETVAL -ne 0 ] && echo "$RETVAL"
